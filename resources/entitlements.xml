@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>com.apple.private.AuthorizationServices</key>
+    <array>  
+        <string>system.install.apple-software</string>
+        <string>system.preferences.nvram</string>
+        <string>com.apple.uninstalld.uninstall</string>
+        <string>com.apple.opendirectoryd.linkidentity</string>
+        <string>com.apple.ServiceManagement.daemons.modify</string>
+        <string>system.services.directory.configure</string>
+        <string>com.apple.trust-settings.user</string>
+        <string>system.install.apple-config-data</string>
+        <string>system.services.networkextension.filtering</string>
+        <string>system.install.software.iap</string>
+        <string>system.install.software.mdm-provided</string>
+        <string>system.install.apple-software.standard-user</string>
+        <string>system.services.systemconfiguration.network</string>
+        <string>com.apple.activitymonitor.kill</string>
+        <string>com.apple.XType.fontmover.restore</string>
+        <string>com.apple.security.assessment.update</string>
+        <string>system.services.networkextension.vpn</string>
+        <string>com.apple.SoftwareUpdate.scan</string>
+        <string>com.apple.SoftwareUpdate.modify-settings</string>
+        <string>system.preferences.security.remotepair</string>
+    </array>
+</dict>
+</plist>
