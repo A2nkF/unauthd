@@ -108,6 +108,5 @@ int main(int argc, const char *argv[]) {
 
     loggerAwait(&server_port);
 
-    while (1){}
     return 0;
 }
