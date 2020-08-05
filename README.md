@@ -1,6 +1,6 @@
 #  Unauthd
 
-A local privilege escalation chain from user to kernel for MacOS <=10.15.5.
+A local privilege escalation chain from user to kernel for MacOS <10.15.5.
 
 ## How does it work? 
 
