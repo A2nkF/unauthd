@@ -51,7 +51,7 @@ Darwin MacBookPro.local 19.3.0 Darwin Kernel Version 19.3.0: Thu Jan  9 20:58:23
 
 ## Hacking
 
-You might have noticed, that the system preferences window popps up after the exploit has run. Just add a 
+You might have noticed, that the system preferences window pops up after the exploit has run. Just add a 
 ```c
 while(1) {}
 ```
