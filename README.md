@@ -4,7 +4,7 @@ A local privilege escalation chain from user to kernel for MacOS < 10.15.5.
 
 ## How does it work? 
 
-I wrote a blogpost explaining the vulnerabilities and exploitation methods I used. It can be found [here](https://a2nkf.github.io/unauthd_Logic_bugs_FTW/) or [here](https://objective-see.com/blog/blog_0x4D.html) for better styling :P .
+I wrote a blogpost explaining the vulnerabilities and exploitation methods I used. It can be found [here](https://objective-see.com/blog/blog_0x4D.html).
 
 ## How do I use it?
 
